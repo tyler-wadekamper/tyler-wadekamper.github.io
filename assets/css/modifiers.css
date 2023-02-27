@@ -1,0 +1,13 @@
+ul.title-buttons {
+  list-style-type: none;
+  padding: 0;
+  justify-content: start !important;
+}
+
+li.title-button {
+  padding: 0 0.5rem 0 0 !important;
+}
+
+li.contact-title-button {
+  padding: 2rem 0.5rem 0 0 !important;
+}
