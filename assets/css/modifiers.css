@@ -1,7 +1,12 @@
+@media screen and (orientation: landscape) {
+  ul.title-buttons {
+    justify-content: start !important;
+  }
+}
+
 ul.title-buttons {
   list-style-type: none;
   padding: 0;
-  justify-content: start !important;
 }
 
 li.title-button {
