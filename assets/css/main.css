@@ -392,7 +392,7 @@ a {
   color: #000000;
 }
 a:hover {
-  color: #47d3e5;
+  color: #2c3e50;
 }
 
 strong,
@@ -1839,8 +1839,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5 !important;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50 !important;
 }
 input[type="submit"]:active,
 input[type="reset"]:active,
@@ -1848,8 +1848,8 @@ input[type="button"]:active,
 button:active,
 .button:active {
   background-color: rgba(71, 211, 229, 0.2);
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5 !important;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50 !important;
 }
 input[type="submit"].primary,
 input[type="reset"].primary,
@@ -1865,7 +1865,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #47d3e5;
+  background-color: #2c3e50;
 }
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
@@ -2104,8 +2104,8 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #47d3e5;
-  box-shadow: 0 0 0 1px #47d3e5;
+  border-color: #2c3e50;
+  box-shadow: 0 0 0 1px #2c3e50;
 }
 
 select {
@@ -2132,8 +2132,8 @@ input[type="radio"]:checked + label:before {
 }
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #47d3e5;
-  box-shadow: 0 0 0 1px #47d3e5;
+  border-color: #2c3e50;
+  box-shadow: 0 0 0 1px #2c3e50;
 }
 
 ::-webkit-input-placeholder {
@@ -2208,13 +2208,13 @@ a.icon.style2:before {
 }
 
 a.icon.style2:hover:before {
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50;
 }
 a.icon.style2:active:before {
   background-color: rgba(71, 211, 229, 0.1);
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50;
 }
 
 /* Image */
@@ -2565,7 +2565,7 @@ body.is-preload .banner.onload-content-fade-left .content {
   opacity: 0;
 }
 .banner.onload-content-fade-right .content {
-  transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
+  transition: opacity 1.25s ease-in-out, transform 0.75s ease-in-out;
 }
 body.is-preload .banner.onload-content-fade-right .content {
   transform: translateX(-1rem);
@@ -2634,7 +2634,7 @@ body.is-preload .banner.onload-image-fade-right .image img {
   opacity: 0;
 }
 .banner.onload-image-fade-in .image img {
-  transition: opacity 0.75s ease-in-out;
+  transition: opacity 1.25s ease-in-out;
 }
 body.is-preload .banner.onload-image-fade-in .image img {
   opacity: 0;
@@ -3464,7 +3464,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 
 .banner .image {
-  background-color: rgba(0, 0, 0, 0.125);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .banner.invert .image {
   background-color: rgba(255, 255, 255, 0.125);
@@ -4734,7 +4734,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
   color: #ffffff;
 }
 .gallery.style1 a:hover {
-  color: #47d3e5;
+  color: #2c3e50;
 }
 .gallery.style1 strong,
 .gallery.style1 b {
@@ -4772,8 +4772,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style1 input[type="button"]:hover,
 .gallery.style1 button:hover,
 .gallery.style1 .button:hover {
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5 !important;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50 !important;
 }
 .gallery.style1 input[type="submit"]:active,
 .gallery.style1 input[type="reset"]:active,
@@ -4781,8 +4781,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style1 button:active,
 .gallery.style1 .button:active {
   background-color: rgba(71, 211, 229, 0.2);
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5 !important;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50 !important;
 }
 .gallery.style1 input[type="submit"].primary,
 .gallery.style1 input[type="reset"].primary,
@@ -4798,7 +4798,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style1 input[type="button"].primary:hover,
 .gallery.style1 button.primary:hover,
 .gallery.style1 .button.primary:hover {
-  background-color: #47d3e5;
+  background-color: #2c3e50;
 }
 .gallery.style1 input[type="submit"].primary:active,
 .gallery.style1 input[type="reset"].primary:active,
@@ -4988,7 +4988,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
   color: #ffffff;
 }
 .gallery.style2 a:hover {
-  color: #47d3e5;
+  color: #2c3e50;
 }
 .gallery.style2 strong,
 .gallery.style2 b {
@@ -5026,8 +5026,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style2 input[type="button"]:hover,
 .gallery.style2 button:hover,
 .gallery.style2 .button:hover {
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5 !important;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50 !important;
 }
 .gallery.style2 input[type="submit"]:active,
 .gallery.style2 input[type="reset"]:active,
@@ -5035,8 +5035,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style2 button:active,
 .gallery.style2 .button:active {
   background-color: rgba(71, 211, 229, 0.2);
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5 !important;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50 !important;
 }
 .gallery.style2 input[type="submit"].primary,
 .gallery.style2 input[type="reset"].primary,
@@ -5052,7 +5052,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style2 input[type="button"].primary:hover,
 .gallery.style2 button.primary:hover,
 .gallery.style2 .button.primary:hover {
-  background-color: #47d3e5;
+  background-color: #2c3e50;
 }
 .gallery.style2 input[type="submit"].primary:active,
 .gallery.style2 input[type="reset"].primary:active,
@@ -6077,7 +6077,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
   color: #ffffff;
 }
 #wrapper > .invert a:hover {
-  color: #47d3e5;
+  color: #2c3e50;
 }
 #wrapper > .invert strong,
 #wrapper > .invert b {
@@ -6118,8 +6118,8 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert input[type="button"]:hover,
 #wrapper > .invert button:hover,
 #wrapper > .invert .button:hover {
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5 !important;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50 !important;
 }
 #wrapper > .invert input[type="submit"]:active,
 #wrapper > .invert input[type="reset"]:active,
@@ -6127,8 +6127,8 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert button:active,
 #wrapper > .invert .button:active {
   background-color: rgba(71, 211, 229, 0.2);
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5 !important;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50 !important;
 }
 #wrapper > .invert input[type="submit"].primary,
 #wrapper > .invert input[type="reset"].primary,
@@ -6144,7 +6144,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert input[type="button"].primary:hover,
 #wrapper > .invert button.primary:hover,
 #wrapper > .invert .button.primary:hover {
-  background-color: #47d3e5;
+  background-color: #2c3e50;
 }
 #wrapper > .invert input[type="submit"].primary:active,
 #wrapper > .invert input[type="reset"].primary:active,
@@ -6174,8 +6174,8 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert input[type="url"]:focus,
 #wrapper > .invert select:focus,
 #wrapper > .invert textarea:focus {
-  border-color: #47d3e5;
-  box-shadow: 0 0 0 1px #47d3e5;
+  border-color: #2c3e50;
+  box-shadow: 0 0 0 1px #2c3e50;
 }
 #wrapper > .invert select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(0, 0, 0, 0.2)' /%3E%3C/svg%3E");
@@ -6200,8 +6200,8 @@ body.is-preload .items.onload-fade-in > * > .inner {
 }
 #wrapper > .invert input[type="checkbox"]:focus + label:before,
 #wrapper > .invert input[type="radio"]:focus + label:before {
-  border-color: #47d3e5;
-  box-shadow: 0 0 0 1px #47d3e5;
+  border-color: #2c3e50;
+  box-shadow: 0 0 0 1px #2c3e50;
 }
 #wrapper > .invert ::-webkit-input-placeholder {
   color: #ffffff !important;
@@ -6219,13 +6219,13 @@ body.is-preload .items.onload-fade-in > * > .inner {
   box-shadow: inset 0 0 0 1px rgb(255, 255, 255);
 }
 #wrapper > .invert a.icon.style2:hover:before {
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50;
 }
 #wrapper > .invert a.icon.style2:active:before {
   background-color: rgba(71, 211, 229, 0.1);
-  box-shadow: inset 0 0 0 1px #47d3e5;
-  color: #47d3e5;
+  box-shadow: inset 0 0 0 1px #2c3e50;
+  color: #2c3e50;
 }
 #wrapper > .invert ul.alt li {
   border-top-color: rgb(255, 255, 255);

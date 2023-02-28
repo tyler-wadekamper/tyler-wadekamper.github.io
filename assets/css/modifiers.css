@@ -16,3 +16,7 @@ li.title-button {
 li.contact-title-button {
   padding: 2rem 0.5rem 0 0 !important;
 }
+
+.background-white {
+  background-color: white;
+}
