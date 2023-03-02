@@ -20,3 +20,7 @@ li.contact-title-button {
 .background-white {
   background-color: white;
 }
+
+.scroll-behavior-smooth {
+  scroll-behavior: smooth;
+}
