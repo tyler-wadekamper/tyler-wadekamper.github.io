@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/modifiers.css" />
     <link rel="stylesheet" href="assets/css/timeline.css" />
     <link rel="stylesheet" href="assets/css/particles.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -258,12 +259,15 @@
             <section>
               <div class="inner">
                 <h3>RefNetwork</h3>
-
-                <div id="carouselExampleControls" class="carousel slide">
+                <div
+                  id="projectPhotoCarousel"
+                  class="carousel slide my-2"
+                  data-bs-interval="false"
+                >
                   <div class="carousel-indicators">
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleControls"
+                      data-bs-target="#projectPhotoCarousel"
                       data-bs-slide-to="0"
                       class="active"
                       aria-current="true"
@@ -271,38 +275,44 @@
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleControls"
+                      data-bs-target="#projectPhotoCarousel"
                       data-bs-slide-to="1"
                       aria-label="Slide 2"
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleControls"
+                      data-bs-target="#projectPhotoCarousel"
                       data-bs-slide-to="2"
                       aria-label="Slide 3"
                     ></button>
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="/images/c130.jpg" class="d-block w-100" />
-                    </div>
-                    <div class="carousel-item">
                       <img
                         src="/images/spotlight01.jpg"
                         class="d-block w-100"
+                        alt="..."
                       />
                     </div>
                     <div class="carousel-item">
                       <img
                         src="/images/spotlight02.jpg"
                         class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight03.jpg"
+                        class="d-block w-100"
+                        alt="..."
                       />
                     </div>
                   </div>
                   <button
                     class="carousel-control-prev"
                     type="button"
-                    data-bs-target="#carouselExampleControls"
+                    data-bs-target="#projectPhotoCarousel"
                     data-bs-slide="prev"
                   >
                     <span
@@ -314,7 +324,7 @@
                   <button
                     class="carousel-control-next"
                     type="button"
-                    data-bs-target="#carouselExampleControls"
+                    data-bs-target="#projectPhotoCarousel"
                     data-bs-slide="next"
                   >
                     <span
@@ -324,6 +334,11 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                  eget ultrices risus nec tempor elit.
+                </p>
                 <a
                   href="https://ref-network.onrender.com/"
                   target="_blank"
@@ -338,16 +353,90 @@
                   class="button small"
                   >Source Code</a
                 >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  dui turpis, cursus eget orci amet aliquam congue semper. Etiam
-                  eget ultrices risus nec tempor elit.
-                </p>
               </div>
             </section>
             <section>
               <div class="inner">
                 <h3>Command Line Chess</h3>
+                <div
+                  id="projectPhotoCarousel"
+                  class="carousel slide my-2"
+                  data-bs-interval="false"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="/images/spotlight01.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight02.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight03.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#projectPhotoCarousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#projectPhotoCarousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p>
+                  Note: This demo is hosted on a resource limited server and may
+                  take a minute or two to spin up.
+                </p>
                 <a
                   href="https://ruby-chess.onrender.com/"
                   target="_blank"
@@ -362,15 +451,91 @@
                   class="button small"
                   >Source Code</a
                 >
-                <p>
-                  Note: This demo is hosted on a resource limited server and may
-                  take a minute or two to spin up.
-                </p>
               </div>
             </section>
             <section>
               <div class="inner">
                 <h3>RetroCalc</h3>
+                <div
+                  id="projectPhotoCarousel"
+                  class="carousel slide my-2"
+                  data-bs-interval="false"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="/images/spotlight01.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight02.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight03.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#projectPhotoCarousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#projectPhotoCarousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                  eget ultrices risus nec tempor elit.
+                </p>
                 <a
                   href="https://tylerwadekamper.com/calculator-top"
                   target="_blank"
@@ -385,16 +550,91 @@
                   class="button small"
                   >Source Code</a
                 >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  dui turpis, cursus eget orci amet aliquam congue semper. Etiam
-                  eget ultrices risus nec tempor elit.
-                </p>
               </div>
             </section>
             <section>
               <div class="inner">
                 <h3>Paint for Dummies</h3>
+                <div
+                  id="projectPhotoCarousel"
+                  class="carousel slide my-2"
+                  data-bs-interval="false"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="/images/spotlight01.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight02.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight03.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#projectPhotoCarousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#projectPhotoCarousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                  eget ultrices risus nec tempor elit.
+                </p>
                 <a
                   href="https://tylerwadekamper.com/paint-top"
                   target="_blank"
@@ -409,16 +649,91 @@
                   class="button small"
                   >Source Code</a
                 >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  dui turpis, cursus eget orci amet aliquam congue semper. Etiam
-                  eget ultrices risus nec tempor elit.
-                </p>
               </div>
             </section>
             <section>
               <div class="inner">
                 <h3>Ro Sham Bo</h3>
+                <div
+                  id="projectPhotoCarousel"
+                  class="carousel slide my-2"
+                  data-bs-interval="false"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="/images/spotlight01.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight02.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/spotlight03.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#projectPhotoCarousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#projectPhotoCarousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  dui turpis, cursus eget orci amet aliquam congue semper. Etiam
+                  eget ultrices risus nec tempor elit.
+                </p>
                 <a
                   href="https://tylerwadekamper.com/rock-paper-scissors-top"
                   target="_blank"
@@ -433,11 +748,6 @@
                   class="button small"
                   >Source Code</a
                 >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  dui turpis, cursus eget orci amet aliquam congue semper. Etiam
-                  eget ultrices risus nec tempor elit.
-                </p>
               </div>
             </section>
           </div>

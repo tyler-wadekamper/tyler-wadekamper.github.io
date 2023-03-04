@@ -24,3 +24,13 @@ li.contact-title-button {
 .scroll-behavior-smooth {
   scroll-behavior: smooth;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 100% !important;
+  box-shadow: none !important;
+}
+
+.project-button {
+  flex: 1;
+}
