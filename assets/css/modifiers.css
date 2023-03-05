@@ -34,3 +34,8 @@ li.contact-title-button {
 .project-button {
   flex: 1;
 }
+
+.carousel-control-next.dark,
+.carousel-control-prev.dark {
+  filter: invert(100%);
+}
