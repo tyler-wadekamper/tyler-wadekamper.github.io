@@ -39,3 +39,11 @@ li.contact-title-button {
 .carousel-control-prev.dark {
   filter: invert(100%);
 }
+
+.icon-height-high {
+  height: 5rem;
+}
+
+.icon-height-med {
+  height: 4.1rem;
+}
