@@ -24,9 +24,8 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <!-- particles.js container -->
+
     <div id="particles-js"></div>
-    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
 
     <!-- Wrapper -->
     <div id="wrapper" class="divided">
@@ -545,22 +544,22 @@
           </p>
           <div class="learned-container mb-3">
             <h3 class="mb-1">Learned in 2021-2022</h3>
-            <div class="learned-icons d-flex flex-wrap justify-content-start align-items-end gap-4">
+            <div class="icon-group d-flex flex-wrap align-items-end gap-4">
               <img src="/images/html5.svg" class="icon-height-high" />
               <img src="/images/css.svg" class="icon-height-high" />
-              <img src="/images/bootstrap.svg" class="icon-height-med" />
-              <img src="/images/javascript.svg" class="icon-height-med" />
-              <img src="/images/rails.svg" class="icon-height-med" />
-              <img src="/images/postgres.svg" class="icon-height-med" />
-              <img src="/images/docker.svg" class="icon-height-med" />
-              <img src="/images/git.svg" class="icon-height-med" />
+              <img src="/images/bootstrap.svg" class="icon-height-med" data-bs-toggle="tooltip" data-bs-placement="top" title="Bootstrap" />
+              <img src="/images/javascript.svg" class="icon-height-med" data-bs-toggle="tooltip" data-bs-placement="top" title="Javascript" />
+              <img src="/images/rails.svg" class="icon-height-med" data-bs-toggle="tooltip" data-bs-placement="top" title="Ruby on Rails" />
+              <img src="/images/postgres.svg" class="icon-height-med" data-bs-toggle="tooltip" data-bs-placement="top" title="PostgreSQL" />
+              <img src="/images/docker.svg" class="icon-height-med" data-bs-toggle="tooltip" data-bs-placement="top" title="Docker" />
+              <img src="/images/git.svg" class="icon-height-med" data-bs-toggle="tooltip" data-bs-placement="top" title="Git" />
             </div>
           </div>
           <div class="learning-container mb-5">
             <h3 class="mb-1">Learning in 2023</h3>
-            <div class="learning-icons d-flex justify-content-start align-items-end gap-4">
-              <img src="/images/react.svg" class="icon-height-med" />
-              <img src="/images/node.svg" class="icon-height-med" />
+            <div class="icon-group d-flex align-items-end gap-4">
+              <img src="/images/react.svg" class="icon-height-med" data-bs-toggle="tooltip" data-bs-placement="top" title="ReactJS" />
+              <img src="/images/node.svg" class="icon-height-med" data-bs-toggle="tooltip" data-bs-placement="top" title="NodeJS" />
             </div>
           </div>
           <ul class="actions stacked">
@@ -655,5 +654,6 @@
     <script src="assets/js/main.js"></script>
     <script src="particles.js-master/particles.js"></script>
     <script src="assets/js/particles.js"></script>
+    <script src="assets/js/tooltips.js"></script>
   </body>
 </html>
