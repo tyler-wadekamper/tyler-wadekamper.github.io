@@ -13,7 +13,7 @@ li.title-button {
   padding: 0 0.5rem 0 0 !important;
 }
 
-li.contact-title-button {
+.icons {
   padding: 2rem 0.5rem 0 0 !important;
 }
 
@@ -48,8 +48,17 @@ li.contact-title-button {
   height: 4.1rem;
 }
 
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
 @media screen and (max-width: 736px) {
   .icon-group {
     justify-content: center;
+  }
+
+  .social-icons {
+    max-width: 300px;
   }
 }
