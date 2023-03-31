@@ -53,6 +53,10 @@ video {
   height: auto !important;
 }
 
+.bi-file-text {
+  font-size: 1.3rem;
+}
+
 @media screen and (max-width: 736px) {
   .icon-group {
     justify-content: center;
