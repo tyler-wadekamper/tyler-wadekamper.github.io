@@ -69,13 +69,13 @@
                 </a>
               </li>
               <li>
-                <a href="documents/Wadekamper_Resume.pdf" target="_blank" rel="noopener noreferrer" class="icon style2 fa-file-alt"> </a>
+                <a href="documents/wadekamper_resume_embedded.pdf" target="_blank" rel="noopener noreferrer" class="icon style2 fa-file-alt"> </a>
               </li>
               <li>
-                <div class="d-flex p-2 gap-2">
-                  <div class="icon style1 fa-envelope"></div>
-                  <div id="emailAddress">tyler.wadekamper@gmail.com</div>
-                </div>
+                <a href="#" id="copyEmailButton" class="icon style2 fa-envelope">
+                  <span id="emailAddress" class="email-text">tyler.wadekamper@gmail.com</span>
+                  <span class="tooltip">Copied to clipboard!</span>
+                </a>
               </li>
             </ul>
           </ul>
@@ -172,7 +172,111 @@
           <div class="items style1 big onscroll-fade-in">
             <section>
               <div class="inner">
-                <h3 class="my-0">RefNetwork</h3>
+                <h3 class="my-0">KidCal</h3>
+                <div id="projectPhotoCarousel0" class="carousel slide my-2" data-bs-interval="false">
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#projectPhotoCarousel0"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button type="button" data-bs-target="#projectPhotoCarousel0" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button prim" data-bs-target="#projectPhotoCarousel0" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button prim" data-bs-target="#projectPhotoCarousel0" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button prim" data-bs-target="#projectPhotoCarousel0" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button prim" data-bs-target="#projectPhotoCarousel0" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/images/baby_with_phone.jpg" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/baby_only.jpg" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/full_scale_top_with_mat.jpg" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/full_scale_bottom.jpg" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/pi_and_hx711.jpg" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/load_cell.jpg" class="d-block w-100" />
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev dark" type="button" data-bs-target="#projectPhotoCarousel0" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next dark" type="button" data-bs-target="#projectPhotoCarousel0" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p>
+                  KidCal is a smart scale designed to display real-time weight data on a local web application. Hosted on a Raspberry Pi, there are
+                  two main application components. The streaming app is written in C, while the front-end is written in React JS.
+                </p>
+                <h4 class="my-1 font-weight-bold">Technologies and Features</h4>
+                <div id="projectCollapseGroup0">
+                  <div class="d-flex justify-content-around">
+                    <ul class="d-flex list-unstyled justify-content-center flex-wrap gap-2">
+                      <li>
+                        <a data-bs-toggle="collapse" href="#hardware">Hardware</a>
+                      </li>
+                      <li>
+                        <a data-bs-toggle="collapse" href="#gpio">GPIO</a>
+                      </li>
+                      <li>
+                        <a data-bs-toggle="collapse" href="#ws">Websocket</a>
+                      </li>
+                      <li>
+                        <a data-bs-toggle="collapse" href="#react">React</a>
+                      </li>
+                      <li>
+                        <a data-bs-toggle="collapse" href="#performance">Performance</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="accordion-group mb-3">
+                    <div class="collapse indent" id="hardware" data-bs-parent="#projectCollapseGroup0">
+                      The scale is built with a Raspberry Pi, HX711 Analog to Digital Converter, and four 5KG load cells.
+                    </div>
+
+                    <div class="collapse indent" id="ws" data-bs-parent="#projectCollapseGroup0">
+                      The streaming application, written in C, establishes a websocket connection to the front-end and continuously sends raw data
+                      read from the HX711 for display.
+                    </div>
+
+                    <div class="collapse indent" id="gpio" data-bs-parent="#projectCollapseGroup0">
+                      The Raspberry Pi reads from the HX711 using GPIO control written in C. The ADC requires a sequence of pulses to get data that is
+                      sent using a serial interface back to the Raspberry Pi.
+                    </div>
+
+                    <div class="collapse indent" id="react" data-bs-parent="#projectCollapseGroup0">
+                      The front-end React application receives raw data from the streaming application using the websocket. It then converts the data
+                      to the desired units and updates the display in real-time.
+                    </div>
+
+                    <div class="collapse indent" id="performance" data-bs-parent="#projectCollapseGroup0">
+                      The scale can reliably weigh up to 30 pounds with an error of 8 ounces. The load cells are sampled at a rate of 10 Hz and
+                      displayed accordingly.
+                    </div>
+                  </div>
+                </div>
+
+                <a href="https://github.com/tyler-wadekamper/kidcal" target="_blank" rel="noopener noreferrer" class="button small">Source Code</a>
+              </div>
+            </section>
+            <section>
+              <div class="inner">
+                <h3 class="my-0">FBRULES</h3>
                 <div id="projectPhotoCarousel1" class="carousel slide my-2" data-bs-interval="false">
                   <div class="carousel-indicators">
                     <button
@@ -211,7 +315,7 @@
                   </button>
                 </div>
                 <p>
-                  RefNetwork is an active social networking application built for
+                  FBRULES is an active social networking application built for
                   <a href="https://en.wikipedia.org/wiki/Official_(gridiron_football)" target="_blank">football officials</a>. Users post and share
                   questions that are designed to improve knowledge of game rules. Each question has an answer and can also have sortable rule
                   references.
@@ -282,7 +386,7 @@
                   </div>
                 </div>
 
-                <a href="https://ref-network.onrender.com/" target="_blank" rel="noopener noreferrer" class="button small">Website</a>
+                <a href="https://www.fbrules.com/" target="_blank" rel="noopener noreferrer" class="button small">Website</a>
                 <a href="https://github.com/tyler-wadekamper/ref-network" target="_blank" rel="noopener noreferrer" class="button small"
                   >Source Code</a
                 >
@@ -299,9 +403,9 @@
                   </div>
                 </div>
                 <p>
-                  A shell based, fully-featured chess game written in Ruby. Note: This demo is hosted on a resource limited server and may take a
-                  moment to load. Because it is a terminal application, the text does not scale. Increasing browser zoom then refreshing the page may
-                  help with legibility.
+                  A shell based, fully-featured chess game written in Ruby.
+                  <strong>Note: This demo is hosted on a resource limited server and may take a moment to load. </strong>Because it is a terminal
+                  application, the text does not scale. Increasing browser zoom then refreshing the page may help with legibility.
                 </p>
                 <h4 class="my-1 font-weight-bold">Technologies and Features</h4>
                 <div id="projectCollapseGroup2">
@@ -521,9 +625,9 @@
         <div class="content">
           <h2>Methodical Tester</h2>
           <p>
-            Deep understanding of the value provided by well-designed tests, reinforced by avionics design experience. The RefNetwork and Chess
-            projects utilize comprehensive test suites that promote ease of refactoring and quality code. Both projects show competency with unit and
-            system test development.
+            Deep understanding of the value provided by well-designed tests, reinforced by avionics design experience. The FBRULES and Chess projects
+            utilize comprehensive test suites that promote ease of refactoring and quality code. Both projects show competency with unit and system
+            test development.
           </p>
           <ul class="actions stacked">
             <li>
@@ -632,5 +736,6 @@
     <script src="particles.js-master/particles.js"></script>
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/tooltips.js"></script>
+    <script src="assets/js/copy_email.js"></script>
   </body>
 </html>
