@@ -95,18 +95,6 @@ video {
   opacity: 0;
 }
 
-/* Tooltip arrow */
-.tooltip::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #28a745 transparent transparent transparent;
-}
-
 .tooltip::before {
   content: "";
   position: absolute;
